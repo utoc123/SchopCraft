@@ -1,0 +1,85 @@
+# Conveniently in alphabetical order.
+# Items
+item.schopcraft:cold_water_canteen.name=시원한물 통
+item.schopcraft:dirty_water_canteen.name=더러운물 통
+item.schopcraft:empty_canteen.name=빈 물통
+item.schopcraft:filtered_water_canteen.name=정수된물 통
+item.schopcraft:fresh_water_canteen.name=깨끗한물 통
+item.schopcraft:salt_water_canteen.name=소금물 통
+item.schopcraft:charcoal_filter.name=숯 필터
+item.schopcraft:feather_fan.name=깃털부채
+item.schopcraft:cold_water_hydropouch.name=차가운물 파우치
+item.schopcraft:dirty_water_hydropouch.name=더러운물 파우치
+item.schopcraft:empty_hydropouch.name=빈 파우치
+item.schopcraft:filtered_water_hydropouch.name=정수된물 파우치
+item.schopcraft:fresh_water_hydropouch.name=깨끗한물 파우치
+item.schopcraft:salt_water_hydropouch.name=소금물 파우치
+item.schopcraft:ice_cream.name=아이스크림
+item.schopcraft:lucid_dream_essence.name=루시드드림 에센스
+item.schopcraft:tabicon.name=Tab Icon
+item.schopcraft:dry_towel.name=마른수건
+item.schopcraft:partially_wet_towel.name=§9조금젖은수건
+item.schopcraft:wet_towel.name=§1젖은수건
+
+# Blocks
+tile.schopcraft:lucid_block.name=루시드 블록
+tile.schopcraft:orange_leaves.name=주황 가을 잎
+tile.schopcraft:red_leaves.name=붉은 가을 잎
+tile.schopcraft:yellow_leaves.name=노란 가을 잎
+
+# Creative Tabs
+itemGroup.schopcraft:mainTab=SchopCraft
+
+# Damage Sources
+death.attack.schopcraft_dehydration=%1$s 탈수증상으로 사망하고 말았습니다...
+death.attack.schopcraft_hyperthermia=%1$s 더운데 에어컨을 키는것을 까먹었습니다!
+death.attack.schopcraft_hypothermia=%1$s 추운날씨에 전기장판을 키는것을 깜빡하였습니다!
+
+# Sounds
+schopcraft.subtitle.fan_whoosh=Fan Whoosh
+
+# Config
+schopcraft.client=클라이언트
+schopcraft.client.tooltip=클라이언트 셋팅
+config.schopcraft:client.showCelsius=섭씨로 표시할까요?
+config.schopcraft:client.showCelsius.tooltip=True면 섭씨로, False면 화씨로 표시됩니다
+config.schopcraft:client.showSips=물통 내구도를 표시할까요?
+config.schopcraft:client.showSips.tooltip=Default는 내구도를 표시합니다 true하시면 숫자로 표시됩니다
+config.schopcraft:client.barPos=각종 바들을 보여드릴까요?
+config.schopcraft:client.barPos.tooltip=GUI바들을 특정위치에 위치시킬수있습니다 다음의 과정을 따라서요: \ntop left \ntop right \nmiddle left \nmiddle right \nbottom left \nbottom right \nInclude the space. 놔두면 오른쪽 중앙에 뜹니다
+
+schopcraft.mechanics=셋팅
+schopcraft.mechanics.tooltip=플레이어의 셋팅 (temp, thirst, sanity, wetness, ghost)
+config.schopcraft:mechanics.enableGhost=고스트를 킬까요
+config.schopcraft:mechanics.enableGhost.tooltip=죽으면 고스트가 됩니다, 설정을 끄면 일반 리스폰
+config.schopcraft:mechanics.enableTemperature=체온켜?
+config.schopcraft:mechanics.enableTemperature.tooltip=체온을 킵니다
+config.schopcraft:mechanics.enableThirst=갈증?
+config.schopcraft:mechanics.enableThirst.tooltip=갈증을 킵니다
+config.schopcraft:mechanics.enableSanity=정신력?
+config.schopcraft:mechanics.enableSanity.tooltip=정신력을 킵니다
+config.schopcraft:mechanics.enableWetness=젖음?
+config.schopcraft:mechanics.enableWetness.tooltip=젖음을 킵니다
+config.schopcraft:mechanics.temperatureScale=열 전도율
+config.schopcraft:mechanics.temperatureScale.tooltip=플레이어의 열전도율 설정
+config.schopcraft:mechanics.thirstScale=갈증 계수 설정
+config.schopcraft:mechanics.thirstScale.tooltip=갈증 계수를 설정합니다
+config.schopcraft:mechanics.sanityScale=정신력 계수 설정
+config.schopcraft:mechanics.sanityScale.tooltip=정신력 계수를 설정합니다
+config.schopcraft:mechanics.wetnessScale=젖음력 계수 설정
+config.schopcraft:mechanics.wetnessScale.tooltip=젖음력 계수를 설정합니다
+
+schopcraft.seasons=Seasons
+schopcraft.seasons.tooltip=계절 설정
+config.schopcraft:seasons.enableSeasons=계절켜?
+config.schopcraft:seasons.enableSeasons.tooltip=계졀켜?
+config.schopcraft:seasons.enableDayLength=계절이 낮밤에 영향을 미치게 할까요
+config.schopcraft:seasons.enableDayLength.tooltip=기본으로 한다면, 여름에는 낮이길어지고 겨울은 반대가 됩니다
+config.schopcraft:seasons.winterLength=겨울의 길이
+config.schopcraft:seasons.winterLength.tooltip=마인크래프트 겨울의 길이 설정, 0이면 계절삭제
+config.schopcraft:seasons.springLength=봄의 길이
+config.schopcraft:seasons.springLength.tooltip=마인크래프트 봄의 길이 설정, 0이면 계절삭제
+config.schopcraft:seasons.summerLength=여름의 길이
+config.schopcraft:seasons.summerLength.tooltip=마인크래프트 여름의 길이 설정, 0이면 계절삭제
+config.schopcraft:seasons.autumnLength=가을의 길이
+config.schopcraft:seasons.autumnLength.tooltip=마인크래프트 가을의 길이 설정, 0이면 계절삭제
